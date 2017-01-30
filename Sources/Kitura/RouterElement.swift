@@ -30,7 +30,7 @@ class RouterElement {
 
     /// The regular expression
     #if os(Linux)
-        private var regex: RegularExpression?
+        private var regex: NSRegularExpression?
     #else
         private var regex: NSRegularExpression?
     #endif

@@ -21,7 +21,7 @@ import Foundation
 // MARK RouteRegex
 
 #if os(Linux)
-    typealias RegularExpressionType = RegularExpression
+    typealias RegularExpressionType = NSRegularExpression
 #else
     typealias RegularExpressionType = NSRegularExpression
 #endif
